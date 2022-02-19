@@ -1,0 +1,68 @@
+.radio{
+    opacity: 0;
+}
+
+body{
+    background: #B6FDDB;
+}
+
+.tabs-1{
+    background: #B6FDDB;
+    border: 2px solid #FF4D4D;
+    box-sizing: border-box;
+    border-radius: 17px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.tabs-2{
+    background: #B6FDDB;
+    border: 2px solid #FF4D4D;
+    box-sizing: border-box;
+    border-radius: 17px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.tabs-3{
+    background: #B6FDDB;
+    border: 2px solid #FF4D4D;
+    box-sizing: border-box;
+    border-radius: 17px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.tabs-4{
+    background: #B6FDDB;
+    border: 2px solid #FF4D4D;
+    box-sizing: border-box;
+    border-radius: 17px;
+    margin-right: 20px;
+    cursor: pointer;
+
+
+}
+
+.content{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#tab-2:checked ~ .content-2,
+#tab-2:checked ~ .content-3 {
+    display: none;
+}
+
+#tab-3:checked ~ .content-1,
+#tab-3:checked ~ .content-3 {
+    display: none;
+}
+
+#tab-4:checked ~ .content-2,
+#tab-4:checked ~ .content-1 {
+    display: none;
+}
+
+
+
+
+
+
